@@ -1,20 +1,19 @@
 @import '@styles/theme.module.scss';
 
 .root {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: start;
-    width: 100vw;
-    padding-right: 5rem;
-    padding-left: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: start;
+  width: 100%;
+  padding-right: 5rem;
+  padding-left: 3rem;
 }
 
-.details {}
+.details {
+}
 
 .social {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    column-gap: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.5em;
 }
