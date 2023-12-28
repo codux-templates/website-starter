@@ -1,15 +1,14 @@
 @import '@styles/theme.module.scss';
 
 .root {
-  display: flex;
-  flex-direction: row;
-  padding-left: 2rem;
-  justify-content: space-between;
-  padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    justify-content: space-between;
+    padding-right: 2rem;
 }
 
 .menu {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 3rem;
+    display: flex;
+    column-gap: 2rem;
 }
