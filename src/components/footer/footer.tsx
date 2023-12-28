@@ -12,7 +12,18 @@ export interface FooterProps {
 export const Footer = ({ className }: FooterProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <div className={styles.details}>Contact Jane Doe</div>
+            <div className={styles.details}>
+                <div className={styles.details}>Contact Jane Doe</div>
+                <div className={classNames(styles.details, styles.small)}>
+                    Mail: info@mysite.com
+                    <br />
+                    Tel: 123-456-7890
+                    <br />
+                    500 Terry Francine Street,
+                    <br />
+                    San Francisco, CA 94158
+                </div>
+            </div>
             <div className={styles.social}>
                 <a href="/">Link</a>
                 <a href="/">Link</a>
