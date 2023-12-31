@@ -12,9 +12,6 @@
 
 .details {
     font: $details-font;
-    display: flex;
-    flex-direction: column;
-    row-gap: 18px;
 }
 
 .social {
@@ -23,5 +20,6 @@
 }
 
 .small {
-    font: $small-font
+    font: $small-font;
+    margin-top: 18px;
 }
