@@ -11,10 +11,10 @@
 }
 
 .details {
-    font-size: 1.2rem;
-    row-gap: 20px;
+    font: $details-font;
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
 }
 
 .social {
@@ -23,5 +23,6 @@
 }
 
 .small {
-    font-size: 0.8rem;
+    font-family: $my-prettyfont;
+    font: $small-font
 }

@@ -13,8 +13,8 @@ export const Footer = ({ className }: FooterProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.details}>
-                <div className={styles.details}>Contact Jane Doe</div>
-                <div className={classNames(styles.details, styles.small)}>
+                <div>Contact Jane Doe</div>
+                <div className={styles.small}>
                     Mail: info@mysite.com
                     <br />
                     Tel: 123-456-7890
