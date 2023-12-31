@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import styles from './footer.module.scss';
 import { ReactComponent as FacebookIcon } from '../../assets/facebook.svg';
 import { ReactComponent as InstagramIcon } from '../../assets/instagram.svg';
+import { ReactComponent as TwitterxIcon } from '../../assets/twitterx.svg';
 
 
 export interface FooterProps {
@@ -32,8 +33,8 @@ export const Footer = ({ className }: FooterProps) => {
                     <FacebookIcon className={styles.icon} />
                 </a>
                 <a href="/"><InstagramIcon className={styles.icon} /></a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <a href="/"><TwitterxIcon className={styles.icon} /></a>
+                <a href="/"><InstagramIcon className={styles.icon} /></a>
             </div>
         </div>
     );
