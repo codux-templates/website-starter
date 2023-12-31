@@ -1,6 +1,8 @@
 import classNames from 'classnames';
 import styles from './footer.module.scss';
-import { ReactComponent as FacebookIcon } from '../../assets/facebook.svg'
+import { ReactComponent as FacebookIcon } from '../../assets/facebook.svg';
+import { ReactComponent as InstagramIcon } from '../../assets/instagram.svg';
+
 
 export interface FooterProps {
     className?: string;
@@ -29,7 +31,7 @@ export const Footer = ({ className }: FooterProps) => {
                 <a href="/">
                     <FacebookIcon className={styles.icon} />
                 </a>
-                <a href="/">Link</a>
+                <a href="/"><InstagramIcon className={styles.icon} /></a>
                 <a href="/">Link</a>
                 <a href="/">Link</a>
             </div>
