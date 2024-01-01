@@ -3,7 +3,10 @@ import styles from './footer.module.scss';
 import { ReactComponent as FacebookIcon } from '../../assets/facebook.svg';
 import { ReactComponent as InstagramIcon } from '../../assets/instagram.svg';
 import { ReactComponent as TwitterxIcon } from '../../assets/twitterx.svg';
-
+import { ReactComponent as DiscordIcon } from '../../assets/discord.svg';
+import { ReactComponent as YoutubeIcon } from '../../assets/youtube.svg';
+import { ReactComponent as MediumIcon } from '../../assets/medium.svg';
+import { ReactComponent as GithubIcon } from '../../assets/github.svg';
 
 export interface FooterProps {
     className?: string;
@@ -30,11 +33,23 @@ export const Footer = ({ className }: FooterProps) => {
             </div>
             <div className={styles.social}>
                 <a href="/">
+                    <TwitterxIcon className={styles.icon} />
+                </a>
+                <a href="/">
                     <FacebookIcon className={styles.icon} />
                 </a>
-                <a href="/"><InstagramIcon className={styles.icon} /></a>
-                <a href="/"><TwitterxIcon className={styles.icon} /></a>
-                <a href="/"><InstagramIcon className={styles.icon} /></a>
+                <a href="/">
+                    <DiscordIcon className={styles.icon} />
+                </a>
+                <a href="/">
+                    <YoutubeIcon className={styles.icon} />
+                </a>
+                <a href="/">
+                    <MediumIcon className={styles.icon} />
+                </a>
+                <a href="/">
+                    <GithubIcon className={styles.icon} />
+                </a>
             </div>
         </div>
     );
