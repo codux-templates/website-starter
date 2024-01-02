@@ -31,8 +31,7 @@
 }
 
 .button {
-    font-family: $my-prettyfont;
-    font: normal normal 400 normal 1rem / 1.3 'DM Sans', sans-serif;
+    font: $button-font;
     text-align: center;
     background-color: $black;
     color: $white;
