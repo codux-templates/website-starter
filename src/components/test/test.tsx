@@ -15,7 +15,5 @@ export const Test = ({ className }: TestProps) => {
         <div className={styles.paragraph}>
             <div className={styles.text}>
                 I’m a paragraph. Add your own text and edit me on properties panel on the right. It’s easy. Just select me and make changes to the font on the styles panel on the right. I’m a great place for you to tell a story and let your viewers know a little more about you.</div></div>
-        <div className={styles.button}>
-            <button>Learn more</button>
-        </div></div>;
+        <button className={styles.button}>Learn more</button></div>;
 };
