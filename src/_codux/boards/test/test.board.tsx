@@ -1,8 +1,8 @@
 import { createBoard } from '@wixc3/react-board';
-import { Test } from '../../../components/test/test';
+import { HomePage } from '../../../components/home-page/home-page';
 
 export default createBoard({
     name: 'Test',
-    Board: () => <Test />,
+    Board: () => <HomePage />,
     isSnippet: true,
 });
