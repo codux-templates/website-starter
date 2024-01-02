@@ -1,15 +1,14 @@
 @import '@styles/theme.module.scss';
 
 .root {
+    flex-grow: 1;
     font: $large-font;
-    margin-top: 1em;
-    margin-bottom: 2em;
     display: flex;
     flex-direction: column;
     row-gap: 1em;
     background-color: $snow-white;
     padding-top: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 .title {

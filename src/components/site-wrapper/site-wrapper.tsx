@@ -16,9 +16,7 @@ export const SiteWrapper = ({ className }: SiteWrapperProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <Header />
-            <div className={styles.content}>
-                <Outlet />
-            </div>
+            <Outlet />
             <Footer />
         </div>
     );
