@@ -4,37 +4,37 @@
     font: $large-font;
     display: flex;
     flex-direction: row;
-    row-gap: 0.5em;
     background-color: $snow-white;
     padding-top: 2em;
-    padding-bottom: 2em;
-    column-gap: 2em;
+    padding-bottom: 3em;
+    justify-content: center;
+    padding-right: 7em;
+    padding-left: 7em;
+    column-gap: 5em;
 }
 
 .title {
     font: $title-font;
     letter-spacing: 0.4rem;
-    margin-bottom: 1em;
 }
 
 
 .paragraph {
-    display: flex;
-    justify-content: center;
     margin-bottom: 1.5em;
     font: $paragraph-font;
 }
 
 .text {
-    margin-right: 3em;
-    margin-left: 3em;
     text-align: start;
+    width: 50vw;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
 }
 
 
 .image {
     align-self: center;
-    height: 14em;
-    margin-top: 1em;
-    width: 24em;
+    width: 20vw;
 }
