@@ -1,5 +1,5 @@
 import { createBoard } from '@wixc3/react-board';
-import { PageNoRouting } from '../../board-wrappers/page-no-routing';
+import { PageNoRouting } from '../../board-wrappers/page-no-navigation';
 import { HomePage } from '../../../components/home-page/home-page';
 
 export default createBoard({
@@ -18,6 +18,6 @@ export default createBoard({
             bottom: 0,
         },
         windowWidth: 414,
-        windowHeight: 896
+        windowHeight: 896,
     },
 });
