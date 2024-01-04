@@ -27,7 +27,7 @@
     margin-bottom: 1.5em;
     font: $paragraph-font;
 
-        @media only screen and (max-width: $mobile-width) {
+    @media only screen and (max-width: $mobile-width) {
         font-size: 1rem;
     }
 }
