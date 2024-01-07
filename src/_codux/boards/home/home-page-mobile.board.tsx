@@ -3,7 +3,7 @@ import { PageNoNavigation } from '../../board-wrappers/page-no-navigation';
 import { HomePage } from '../../../components/home-page/home-page';
 
 export default createBoard({
-    name: 'PageHome-Mobile',
+    name: 'Page-Home-Mobile',
     Board: () => (
         <PageNoNavigation>
             <HomePage />
