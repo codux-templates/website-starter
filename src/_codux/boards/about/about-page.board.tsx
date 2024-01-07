@@ -3,7 +3,7 @@ import { PageNoNavigation } from '../../board-wrappers/page-no-navigation';
 import { About } from '../../../components/about/about';
 
 export default createBoard({
-    name: 'About Page ',
+    name: 'Page-About',
     Board: () => (
         <PageNoNavigation>
             <About />
