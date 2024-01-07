@@ -1,7 +1,7 @@
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import { SiteWrapper } from '../../components/site-wrapper/site-wrapper';
 
-export function PageNoRouting(props: { children: React.ReactNode }) {
+export function PageNoNavigation(props: { children: React.ReactNode }) {
     const router = createMemoryRouter([
         {
             path: '/',
