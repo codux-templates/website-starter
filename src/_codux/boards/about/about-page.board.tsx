@@ -1,5 +1,5 @@
 import { createBoard } from '@wixc3/react-board';
-import { PageNoRouting } from '../../board-wrappers/page-no-routing';
+import { PageNoRouting } from '../../board-wrappers/page-no-navigation';
 import { About } from '../../../components/about/about';
 
 export default createBoard({
