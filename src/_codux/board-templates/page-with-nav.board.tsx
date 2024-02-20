@@ -1,5 +1,5 @@
 import { createBoard } from '@wixc3/react-board';
-import { PageWithNavigation } from '../board-wrappers/page-with-navigation';
+import { PageWithNavigation } from 'src/_codux/board-wrappers/page-with-navigation';
 
 export default createBoard({
     name: 'New Board',

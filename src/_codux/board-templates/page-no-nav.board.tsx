@@ -1,5 +1,5 @@
 import { createBoard, ContentSlot } from '@wixc3/react-board';
-import { PageNoNavigation } from '../board-wrappers/page-no-navigation';
+import { PageNoNavigation } from 'src/_codux/board-wrappers/page-no-navigation';
 
 export default createBoard({
     name: 'New Board',

@@ -1,5 +1,5 @@
 import { createBoard, ContentSlot } from '@wixc3/react-board';
-import { ComponentWrapper } from '../board-wrappers/component-wrapper';
+import { ComponentWrapper } from 'src/_codux/board-wrappers/component-wrapper';
 
 export default createBoard({
     name: 'New Board',
