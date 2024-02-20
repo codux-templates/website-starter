@@ -1,20 +1,23 @@
-import { createBoard } from '@wixc3/react-board';
 import { Header } from '../../../components/header/header';
-import { ComponentWrapper } from '../../board-wrappers/component-wrapper';
+import { createBoard, ContentSlot } from '@wixc3/react-board';
+import { ComponentWrapper } from 'src/_codux/board-wrappers/component-wrapper';
 
 export default createBoard({
     name: 'Header',
     Board: () => (
         <ComponentWrapper>
-            <Header />
+            <ContentSlot>
+                <Header />
+            </ContentSlot>
         </ComponentWrapper>
     ),
-    isSnippet: true,
+    isSnippet: false,
     environmentProps: {
         canvasMargin: {
-            top: 1,
+            top: 0,
             right: 0,
             left: 0,
+            bottom: 0,
         },
     },
 });
