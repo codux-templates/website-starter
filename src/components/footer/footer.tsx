@@ -1,11 +1,11 @@
 import classNames from 'classnames';
 import styles from './footer.module.scss';
-import { ReactComponent as FacebookIcon } from '../../assets/facebook.svg';
-import { ReactComponent as TwitterxIcon } from '../../assets/twitterx.svg';
-import { ReactComponent as DiscordIcon } from '../../assets/discord.svg';
-import { ReactComponent as YoutubeIcon } from '../../assets/youtube.svg';
-import { ReactComponent as MediumIcon } from '../../assets/medium.svg';
-import { ReactComponent as GithubIcon } from '../../assets/github.svg';
+import FacebookIcon from '../../assets/facebook.svg?react';
+import TwitterxIcon from '../../assets/twitterx.svg?react';
+import DiscordIcon from '../../assets/discord.svg?react';
+import YoutubeIcon from '../../assets/youtube.svg?react';
+import MediumIcon from '../../assets/medium.svg?react';
+import GithubIcon from '../../assets/github.svg?react';
 
 export interface FooterProps {
     className?: string;
