@@ -1,6 +1,6 @@
 import { createBoard } from '@wixc3/react-board';
 import { PageNoNavigation } from '../../board-wrappers/page-no-navigation';
-import { About } from '../../../components/about/about';
+import { About } from '../../../pages/about/about';
 
 export default createBoard({
     name: 'Page-About',

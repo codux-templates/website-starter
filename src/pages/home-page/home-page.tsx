@@ -1,17 +1,12 @@
-import classNames from 'classnames';
 import styles from './home-page.module.scss';
 
-export interface HomePageProps {
-    className?: string;
-}
-
 /**
- * This component was created using Codux's Default new component template.
+ * This component was created using Codux's Page new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-export const HomePage = ({ className }: HomePageProps) => {
+export const HomePage = () => {
     return (
-        <div className={classNames(styles.root, className)}>
+        <div className={styles.root}>
             <div className={styles.title}>I&apos;M A TITLE</div>
             <div className={styles.paragraph}>
                 <div className={styles.text}>
