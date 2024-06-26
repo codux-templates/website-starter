@@ -1,5 +1,4 @@
-@import '@styles/theme.module.scss';
-
+@import '../../styles/theme.module.scss';
 .root {
     font: $large-font;
     display: flex;
@@ -18,7 +17,6 @@
     letter-spacing: 0.4rem;
 }
 
-
 .paragraph {
     margin-bottom: 1.5em;
     font: $paragraph-font;
@@ -32,7 +30,6 @@
     flex-direction: column;
     row-gap: 1em;
 }
-
 
 .image {
     align-self: center;

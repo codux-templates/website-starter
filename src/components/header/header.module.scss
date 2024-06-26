@@ -1,5 +1,4 @@
-@import '@styles/theme.module.scss';
-
+@import '../../styles/theme.module.scss';
 .root {
     display: flex;
     flex-direction: row;
@@ -11,7 +10,7 @@
     font: $button-font;
 
     @media only screen and (max-width: $mobile-width) {
-        padding: 0 3em
+        padding: 0 3em;
     }
 }
 
