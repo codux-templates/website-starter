@@ -1,12 +1,14 @@
-import { createBoard } from '@wixc3/react-board';
-import { PageNoNavigation } from '../../board-wrappers/page-no-navigation';
-import { HomePage } from '../../../components/home-page/home-page';
+import { HomePage } from '../../../../pages/home-page/home-page';
+import { createBoard, ContentSlot } from '@wixc3/react-board';
+import { PageNoNavigation } from '/src/_codux/board-wrappers/page-no-navigation';
 
 export default createBoard({
-    name: 'Page-Home-Mobile',
+    name: 'Page Home Mobile',
     Board: () => (
         <PageNoNavigation>
-            <HomePage />
+            <ContentSlot>
+                <HomePage />
+            </ContentSlot>
         </PageNoNavigation>
     ),
     isSnippet: false,
