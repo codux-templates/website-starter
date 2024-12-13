@@ -1,17 +1,12 @@
-import classNames from 'classnames';
 import styles from './about.module.scss';
 
-export interface AboutProps {
-    className?: string;
-}
-
 /**
- * This component was created using Codux's Default new component template.
+ * This component was created using Codux's Page new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-export const About = ({ className }: AboutProps) => {
+export const About = () => {
     return (
-        <div className={classNames(styles.root, className)}>
+        <div className={styles.root}>
             <div className={styles.text}>
                 <div className={styles.title}>I&apos;M A TITLE</div>
                 <div className={styles.paragraph}>
